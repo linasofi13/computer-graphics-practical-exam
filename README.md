@@ -47,7 +47,7 @@ Este programa implementa el algoritmo **Cohen-Sutherland extendido a 3D** para r
 
 1. Abrir terminal y navegar a la carpeta del proyecto:
 ```bash
-cd "C:\Users\Usuario\Documents\Universidad\Octavo Semestre\Computación Gráfica\ParcialPractico\computer-graphics-practical-exam"
+cd "path/to/computer-graphics-practical-exam"
 ```
 
 2. Compilar todos los archivos Java:
@@ -98,14 +98,14 @@ El algoritmo utiliza códigos de región de 6 bits:
 
 ## Distribución del Trabajo
 
-### Alejandro Rios
+### Lina Ballesteros
 - Implementación del algoritmo Cohen-Sutherland extendido a 3D
 - Renderizado y proyección
 - Carga de datos desde archivos .txt
 - Dibujo de la casita, cubo y segmento de línea
 - Corrección y optimización del algoritmo
 
-### Lina Ballesteros
+### Alejandro Rios
 - Implementación del manejo de entrada del teclado
 - Movimiento del punto P3 con las teclas
 - Integración del KeyListener en la ventana principal
