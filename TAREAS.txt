@@ -1,0 +1,78 @@
+==========================================
+ESTADO DEL PROYECTO - CLIPPING 3D
+==========================================
+
+LO QUE YA ESTÁ IMPLEMENTADO:
+-----------------------------
+
+1. ESTRUCTURA BASE:
+   ✓ Main.java - Ventana principal (SIN movimiento)
+   ✓ Renderer.java - Renderizado completo
+   ✓ Cohen3D.java - Algoritmo Cohen-Sutherland 3D CORREGIDO
+   ✓ Point3D.java - Clase para puntos 3D
+
+2. CARGA DE DATOS:
+   ✓ Carga de cubo desde cube.txt
+   ✓ Carga de casita desde house3d.txt
+   ✓ Carga de puntos P2 y P3 desde points.txt
+   ✓ Carga de límites de clipping desde clipping_volume.txt
+
+3. DIBUJO:
+   ✓ Casita dibujada en azul claro
+   ✓ Cubo de recorte dibujado en verde
+   ✓ Proyección sobre plano Z = -100
+   ✓ Segmento P2P3 dibujado con colores según clipping:
+     - AZUL: Rechazo trivial
+     - ROJO: Aceptado o recortado
+
+4. ALGORITMO DE CLIPPING:
+   ✓ Cohen-Sutherland extendido a 3D
+   ✓ Cálculo de códigos de región (6 bits)
+   ✓ Detección de aceptación trivial
+   ✓ Detección de rechazo trivial
+   ✓ Cálculo de intersecciones con planos del cubo
+   ✓ Recorte iterativo hasta resolución
+
+==========================================
+LO QUE FALTA IMPLEMENTAR:
+==========================================
+
+1. MOVIMIENTO DEL PUNTO P3:
+   ❌ Crear clase Keyboard.java que implemente KeyListener
+   ❌ Implementar movimiento con teclas:
+      - A/D: decrementar/incrementar X de P3
+      - W/S: incrementar/decrementar Y de P3
+      - E/Q: decrementar/incrementar Z de P3
+   ❌ Agregar KeyListener a la ventana en Main.java
+   ❌ Llamar a renderer.repaint() después de cada movimiento
+
+2. INSTRUCCIONES PARA EL COMPAÑERO:
+   - Debe crear Keyboard.java desde cero
+   - Debe implementar KeyListener
+   - Debe modificar renderer.P3.x, renderer.P3.y, renderer.P3.z
+   - Debe llamar a renderer.repaint() para actualizar la pantalla
+   - El incremento/decremento debe ser definido por el compañero
+
+==========================================
+ARCHIVOS IMPORTANTES:
+==========================================
+
+- Main.java: Ventana principal (listo, solo falta agregar KeyListener)
+- Renderer.java: Renderizado completo (listo)
+- Cohen3D.java: Algoritmo de clipping (CORREGIDO y listo)
+- Point3D.java: Clase de puntos (lista)
+- cube.txt: Coordenadas del cubo
+- house3d.txt: Coordenadas de la casita
+- points.txt: Coordenadas iniciales de P2 y P3
+- clipping_volume.txt: Límites del volumen de recorte
+
+==========================================
+NOTAS:
+==========================================
+
+- El algoritmo de clipping ha sido corregido y ahora funciona correctamente
+- El segmento se pinta de ROJO cuando no es rechazo trivial
+- El segmento se pinta de AZUL cuando es rechazo trivial
+- Todo el dibujo está funcionando correctamente
+- Solo falta implementar el movimiento del punto P3
+

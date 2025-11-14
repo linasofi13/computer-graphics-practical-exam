@@ -1,0 +1,6 @@
+# Volumen de recorte (cubo de clipping)
+# P0: esquina mínima
+# P1: esquina máxima
+0 0 -200
+100 100 -300
+

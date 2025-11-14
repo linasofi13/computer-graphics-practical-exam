@@ -1,0 +1,6 @@
+# Puntos iniciales del segmento de línea
+# P2: punto fijo
+# P3: punto móvil 
+0 0 -100
+50 50 -199
+

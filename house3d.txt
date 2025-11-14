@@ -1,0 +1,27 @@
+9
+100 100 0    
+300 100 0    
+300 300 0    
+100 300 0     
+100 100 100  
+300 100 100   # Pared frontal derecha
+300 300 100   # Pared trasera derecha
+100 300 100   # Pared trasera izquierda
+200 200 200   # Punta del techo
+16
+0 1    # Base frontal
+1 2    # Base derecha
+2 3    # Base trasera
+3 0    # Base izquierda
+4 5    # Borde superior frontal
+5 6    # Borde superior derecho
+6 7    # Borde superior trasero
+7 4    # Borde superior izquierdo
+0 4    # Pilar frontal izquierdo
+1 5    # Pilar frontal derecho
+2 6    # Pilar trasero derecho
+3 7    # Pilar trasero izquierdo
+4 8    # Techo frontal izquierdo
+5 8    # Techo frontal derecho
+6 8    # Techo trasero derecho
+7 8    # Techo trasero izquierdo
