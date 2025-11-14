@@ -60,7 +60,7 @@ El incremento/decremento es de 2.0 unidades por tecla presionada.
 COMPILACIÓN Y EJECUCIÓN:
 -------------------------
 1) Abrir terminal (PowerShell o CMD) y situarse en la carpeta del proyecto:
-   cd "C:\Users\Usuario\Documents\Universidad\Octavo Semestre\Computación Gráfica\ParcialPractico\computer-graphics-practical-exam"
+   cd "path/to/computer-graphics-practical-exam"
 
 2) Compilar todos los archivos Java:
    javac *.java
