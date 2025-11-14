@@ -55,7 +55,7 @@ A / D : Decrementar / Incrementar coordenada X del punto P3
 W / S : Incrementar / Decrementar coordenada Y del punto P3
 E / Q : Decrementar / Incrementar coordenada Z del punto P3
 
-El incremento/decremento es de 2.0 unidades por tecla presionada.
+El incremento/decremento es de 5.0 unidades por tecla presionada.
 
 COMPILACIÓN Y EJECUCIÓN:
 -------------------------
