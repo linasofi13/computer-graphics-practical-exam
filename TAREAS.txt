@@ -33,34 +33,24 @@ LO QUE YA ESTÁ IMPLEMENTADO:
    ✓ Cálculo de intersecciones con planos del cubo
    ✓ Recorte iterativo hasta resolución
 
-==========================================
-LO QUE FALTA IMPLEMENTAR:
-==========================================
-
-1. MOVIMIENTO DEL PUNTO P3:
-   ❌ Crear clase Keyboard.java que implemente KeyListener
-   ❌ Implementar movimiento con teclas:
+5. MOVIMIENTO DEL PUNTO P3: ✓ COMPLETADO
+   ✓ Crear clase Keyboard.java que implemente KeyListener
+   ✓ Implementar movimiento con teclas:
       - A/D: decrementar/incrementar X de P3
       - W/S: incrementar/decrementar Y de P3
       - E/Q: decrementar/incrementar Z de P3
-   ❌ Agregar KeyListener a la ventana en Main.java
-   ❌ Llamar a renderer.repaint() después de cada movimiento
-
-2. INSTRUCCIONES PARA EL COMPAÑERO:
-   - Debe crear Keyboard.java desde cero
-   - Debe implementar KeyListener
-   - Debe modificar renderer.P3.x, renderer.P3.y, renderer.P3.z
-   - Debe llamar a renderer.repaint() para actualizar la pantalla
-   - El incremento/decremento debe ser definido por el compañero
+   ✓ Agregar KeyListener a la ventana en Main.java
+   ✓ Llamar a renderer.repaint() después de cada movimiento
 
 ==========================================
 ARCHIVOS IMPORTANTES:
 ==========================================
 
-- Main.java: Ventana principal (listo, solo falta agregar KeyListener)
-- Renderer.java: Renderizado completo (listo)
-- Cohen3D.java: Algoritmo de clipping (CORREGIDO y listo)
-- Point3D.java: Clase de puntos (lista)
+- Main.java: Ventana principal con KeyListener agregado
+- Renderer.java: Renderizado completo
+- Keyboard.java: Control de movimiento de P3
+- Cohen3D.java: Algoritmo de clipping
+- Point3D.java: Clase de puntos
 - cube.txt: Coordenadas del cubo
 - house3d.txt: Coordenadas de la casita
 - points.txt: Coordenadas iniciales de P2 y P3
@@ -74,5 +64,17 @@ NOTAS:
 - El segmento se pinta de ROJO cuando no es rechazo trivial
 - El segmento se pinta de AZUL cuando es rechazo trivial
 - Todo el dibujo está funcionando correctamente
-- Solo falta implementar el movimiento del punto P3
+- El movimiento del punto P3 está implementado y funcionando
+
+==========================================
+PROYECTO COMPLETO - LISTO PARA USAR
+==========================================
+
+PARA EJECUTAR:
+1. Compilar: javac *.java
+2. Ejecutar: java Main
+3. Usar controles de teclado para mover P3:
+   - A/D: Mover en X (izquierda/derecha)
+   - W/S: Mover en Y (arriba/abajo)
+   - Q/E: Mover en Z (alejar/acercar)
 
